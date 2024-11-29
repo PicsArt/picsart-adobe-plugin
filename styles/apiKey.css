@@ -1,0 +1,43 @@
+.apiKey-div {
+    padding-bottom: 100px;
+}
+
+.apiKeySpan {
+    color: #af0dae;
+}
+
+.apiKeyP {
+    font-weight: 600;
+    color: white;
+}
+
+.apiKeyButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 60px;
+}
+
+.textarea-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#signIn-Textarea {
+    /* background-color: white; */
+    color: white;
+}
+
+#saveKeyButton {
+    color: #af0dae;
+    background-color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#saveKeyButton:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.getBalanceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 220px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#buyCredits-button {
+    background-color: #158380;
+    color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    border: none;
+}
+
+#buyCredits-button:hover {
+    cursor: pointer;
+    background-color: #136b68;
+}
+
+.getBalance-current-balance, 
+.getBalance-upgrade {
+    color: white;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.getBalance-credits-count {
+    color: #767676;
+    font-size: 12px;
+    font-weight: 600;
+}

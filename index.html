@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./styles/apiKey.css">
+  <link rel="stylesheet" href="./styles/upscale.css">
+  <link rel="stylesheet" href="./styles/getBalance.css">
+</head>
+<body style="background-color: #303030;">
+  <dialog id="picsart">
+    <webview  id="webview" width="500px" height="500px" src="https://picsart.com/sso/?client_id=auth-service-console-io&scope=user-global&redirect_uri=https://console.picsart.io/dashboard"></webview>
+  </dialog>
+  <dialog id="help">
+    <webview id="webview" width="500px" height="500px" src="https://help.picsart.io/hc/en-us"></webview>
+  </dialog>
+  <dialog id="console">
+    <webview id="webview" width="500px" height="500px" src="https://console.picsart.io/"></webview>
+  </dialog>
+  <div id="root"></div>
+  <script src="main.js"></script>
+</body>
+</html>
