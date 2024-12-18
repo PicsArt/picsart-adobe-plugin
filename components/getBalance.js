@@ -10,6 +10,7 @@ async function CreditsCheckingFetch() {
         "headers": {
             "accept": "application/json",
             "X-Picsart-API-Key": key,
+            'X-Picsart-Plugin': "Photoshop"
         }
     };
     

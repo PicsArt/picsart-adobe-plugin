@@ -8,7 +8,8 @@ async function Auth() {
         "method": "GET",
         "headers": {
             "accept": "application/json",
-            "X-Picsart-API-Key": key
+            "X-Picsart-API-Key": key,
+            'X-Picsart-Plugin': "Photoshop"
         }
     };
     
