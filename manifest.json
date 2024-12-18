@@ -1,0 +1,104 @@
+{
+  "id": "Test-2ndo67",
+  "name": "RemoveBg_Upscale_Plugin_Core_Js",
+  "version": "1.0.0",
+  "main": "index.html",
+  "manifestVersion": 5,
+  "host": [
+    {
+      "app": "PS",
+      "minVersion": "25.12.0"
+    }
+  ],
+  "requiredPermissions": {
+    "clipboard": "readAndWrite",
+    "localFileSystem": "fullAccess",
+    "network": { 
+      "domains": "all"
+    },
+    "webview": {
+      "allow": "yes",
+      "domains": [ 
+        "https://picsart.com/sso/?client_id=auth-service-console-io&scope=user-global&redirect_uri=https://console.picsart.io/dashboard",
+        "https://console.picsart.io",
+        "https://help.picsart.io/hc/en-us",
+        "https://picsart.com/terms-of-use/"
+      ]
+    },
+    "enableUserInfo": true
+  },
+  "runtime": {
+    "environment": "photoshop"
+  },
+  "permissions": {
+    "photoshop": {
+      "required": true
+    },
+    "launchProcess": { 
+        "schemes": 
+            ["https", "slack", "adbxd" ],       
+        "extensions": 
+            [ ".pdf", ".xd", ".psd" ] 
+    },
+    "ipc": {
+        "enablePluginCommunication": true   
+    }
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "picsartPlugin",
+      "label": {
+        "default": "Picsart Plugin"
+      },
+      "minimumSize": {
+        "width": 230,
+        "height": 300
+      },
+      "preferredDockedSize": {
+        "width": 230,
+        "height": 300
+      }
+    },
+
+    {
+      "type": "command",
+      "id": "setApiKey",
+      "label": {
+        "default": "Set API Key"
+      }
+    },
+
+    {
+      "type": "command",
+      "id": "removeBg",
+      "label": {
+        "default": "Remove Background"
+      }
+    },
+
+    {
+      "type": "command",
+      "id": "upscale",
+      "label": {
+        "default": "Upscale"
+      }
+    },
+
+    {
+      "type": "command",
+      "id": "support",
+      "label": {
+        "default": "Support"
+      }
+    },
+
+    {
+      "type": "command",
+      "id": "myAccount",
+      "label": {
+        "default": "My Account"
+      }
+    }
+  ]
+}

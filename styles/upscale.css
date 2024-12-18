@@ -1,0 +1,44 @@
+.upscale-div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 150px;
+}
+
+.upscale-label {
+    color: white;
+}
+
+.upscale-nested-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upscale-form {
+    color: white;
+}
+
+.upscaleP {
+    padding-top: 20px;
+    color: white;
+}
+
+#upscale-select {
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+}
+
+#upscale-button {
+    background-color: white;
+    color: #af0dae;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#upscale-button:hover {
+    cursor: pointer;
+}
